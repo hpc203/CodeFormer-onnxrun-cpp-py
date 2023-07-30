@@ -9,4 +9,5 @@ onnx文件在百度云盘，下载链接：https://pan.baidu.com/s/18g918VdcyODd
 
 在编写完程序后，测试了多张图片，发现如果输入图片是清晰的图片，那么经过CodeFormer的推理之后，
 得到的图片反而变形走样了，使得图片变得清晰了。因此，一套合理的程序是，在执行CodeFormer之前，
-对输入图片做一个模糊检测，如果判定图片是模糊的，才能输入到CodeFormer
+对输入图片做一个模糊检测，如果判定图片是模糊的，才能输入到CodeFormer。试验分析，可以看我的
+csdn博客文章 https://blog.csdn.net/nihate/article/details/112731327
